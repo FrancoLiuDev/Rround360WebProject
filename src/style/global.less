@@ -1,0 +1,43 @@
+@import "./color.less";
+@import "./globalLoading.less";
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft JhengHei", "微软雅黑", "メイリオ", "맑은 고딕", sans-serif;
+    font-size: 15px;
+}
+
+.txt_ag_md {
+    text-align: center;
+}
+
+.bg_c_g {
+    background-color: @color_g;
+}
+
+.clear {
+    clear: both;
+}
+
+.mouse_bn {
+    cursor: pointer;
+}
+
+.hover_icon {
+    &:hover {
+        filter: brightness(0.7);
+    }
+}
+
+.pos_re {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.pos_xymd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

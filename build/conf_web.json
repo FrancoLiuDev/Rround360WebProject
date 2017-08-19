@@ -1,0 +1,27 @@
+{
+    "tags": {
+        "allowUnknownTags": true
+    },
+    "source": {
+        "includePattern": ".+\\.(vue|js)$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "opts": {
+        "recurse": true,
+        "destination": "doc/web"
+    },
+    "plugins": [
+        "plugins/markdown",
+        "node_modules/jsdoc-vue"
+    ],
+    "templates": {
+        "cleverLinks": true,
+        "monospaceLinks": true,
+        "default": {
+            "outputSourceFiles": true
+        },
+        "applicationName": "OView PRO W2 Web",
+        "openGraph": {},
+        "meta": {}
+    }
+}

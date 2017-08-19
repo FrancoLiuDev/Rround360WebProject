@@ -1,0 +1,67 @@
+.alertBg {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #000000BB;
+    z-index: 200;
+    .alertMc {
+        min-width: 300px;
+        max-width: 70%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border-radius: 10px;
+        color: #000;
+        .alertHead {
+            padding: 10px;
+            letter-spacing: 0.1em;
+            font-weight: bold;
+            text-align: center;
+            line-height: 24px;
+            border-bottom: 1px solid #D3D3D3;
+        }
+        .alertBody {
+            margin: 10px 20px 80px 20px;
+        }
+        .alertFoot {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: 20px;
+            text-align: center;
+            .bn {
+                display: inline-block;
+                width: auto;
+                height: auto;
+                padding: 0px 30px 0px 30px;
+                margin: 0px 2px 0px 2px;
+                border-radius: 3px;
+                background-color: #C0C0C0;
+                line-height: 2em;
+                &.bg_c_g {
+                    color: #fff;
+                    background-color: $color_g;
+                }
+                &:hover {
+                    filter: brightness(1.1);
+                }
+            }
+        }
+        .closeBn {
+            width: 11px;
+            height: 11px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: url("/images/Display box close.png");
+            &:hover {
+                // filter: brightness(1.5);
+            }
+        }
+    }
+}

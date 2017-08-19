@@ -1,0 +1,80 @@
+{
+    "SERVER": "http://127.0.0.1",
+    "port": 80,
+    "API_SERVER": "http://60.251.125.208:18000",
+    "V360_MANAGER": "http://192.168.1.4:28000",
+    "API": {
+        "login": {
+            "name": "/sigin/login",
+            "uid": "uid",
+            "ups": "ups",
+            "admin_api": "/api/v1/user/login",
+            "key": "Y6RRNBZX4RHE93XCLMDNRHK3",
+            "ktoken": "abc123",
+            "brand": "leedian"
+        },
+        "logout": {
+            "name": "/sigin/logout",
+            "admin_api": "/api/v1/user/logout"
+        },
+        "chkTaken": {
+            "name": "/sigin/chk",
+            "admin_api": "/api/v1/user/auth"
+        },
+        "refToken": {
+            "admin_api": "/api/v1/user/relog"
+        },
+        "h360List": {
+            "name": "/api/h360",
+            "admin_api": "/api/v1/h360"
+        },
+        "h360Del": {
+            "name": "/api/disable/",
+            "admin_api": "/api/v1/h360/"
+        },
+        "fp": {
+            "name": "/api/fp/",
+            "admin_api": "/api/v1/h360/fp/"
+        },
+        "r360fp": {
+            "name": "/api/r360/fp/",
+            "admin_api": "/api/v1/r360/fp/"
+        },
+        "h360detail": {
+            "name": "/api/detail/",
+            "admin_api": "/api/v1/h360/"
+        },
+        "h360detail_edit": {
+            "name": "/api/detail_edit/",
+            "admin_api": "/api/v1/h360/"
+        },
+        "r360List": {
+            "name": "/api/r360",
+            "admin_api": "/api/v1/r360"
+        },
+        "r360pag": {
+            "name": "/api/r360pag/",
+            "basePath": "/r360/"
+        },
+        "v360Creat": {
+            "name": "/api/h360/v360",
+            "admin_api": "/api/v1/v360"
+        },
+        "v360List": {
+            "name": "/api/v360",
+            "admin_api": "/api/v1/v360"
+        },
+        "v360Del": {
+            "name": "/api/v360/del/",
+            "admin_api": "/api/v1/v360/"
+        },
+        "v360Meta": {
+            "name": "/api/v360/meta/",
+            "admin_api": "/api/v1/v360/"
+        },
+        "v360Fp": {
+            "name": "/api/v360/fp/",
+            "admin_api": "/api/v1/v360/fp/"
+        }
+    }
+}

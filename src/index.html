@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <oview-head></oview-head>
+        <div class="container-fluid">
+            <router-view></router-view>
+        </div>
+        <stage-loading v-if="isLoading"></stage-loading>
+        <message></message>
+    </div>
+    <div id="init">
+        <div class="loader"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+
+</html>

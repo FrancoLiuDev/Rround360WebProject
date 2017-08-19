@@ -1,0 +1,70 @@
+{
+    "zh-CN": {
+        "message": {
+            "hello": "你好! 这是简体中文版!"
+        },
+        "head": {
+            "isLogOut": "是否确定登出?"
+        },
+        "indexPage": {
+            "til": "OverView PRO 首页",
+            "loginMessage": ["你已经登入成功", "目前尚未登入"]
+        },
+        "login": {
+            "uid": "请输入帐号",
+            "upw": "请输入密码",
+            "login": "登入",
+            "code": {
+                "00_002": "请输入您的帐号",
+                "02_002": "查无此帐号",
+                "01_005": "密码输入错误",
+                "01_006": "使用戶無效",
+                "err": "连线失败"
+            }
+        },
+        "r360List": {
+            "has": ["目前R360共有", "笔"]
+        },
+        "h360Page": {
+            "dalAlert": "是否确定删除?"
+        },
+        "h360List": {
+            "has": ["目前H360共有", "笔"]
+        },
+        "h360View": {
+            "meta": {
+                "name": "名称",
+                "about": "说明",
+                "aboutInput": "请输入说明",
+                "confirm": ["取消", "确定"]
+            }
+        },
+        "v360Page": {
+            "gotoEdit": "创造一个V360",
+            "delAlert": "是否确定删除?"
+        },
+        "v360List": {
+            "status": ["转档完成", "转档失败!", "转档中..", "未知情况"]
+        },
+        "v360Edit": {
+            "message": "请选择左方H360",
+            "v360EditPost": "H360 转 V360",
+            "from": {
+                "name": "请输入影片名称",
+                "about": "请输入说明"
+            }
+
+        },
+        "v360View": {
+            "backToEdit": "回到上一步",
+            "next": "确定转档",
+            "message": ["预览中...", "转档失败!!"],
+            "about": "影片说明"
+        },
+        "confirmAlert": ["取消", "确定"],
+        "fileUpMod": {
+            "cont": "拖曳PNG到此上传",
+            "err": "请上传png!!"
+        }
+    }
+}

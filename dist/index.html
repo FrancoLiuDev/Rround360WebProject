@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>
+        Oview Pro W1
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="css/main.bundle.css" rel="stylesheet"></head>
+
+<body>
+    <div id="app">
+        <oview-head></oview-head>
+        <div class="container-fluid">
+            <router-view></router-view>
+        </div>
+        <stage-loading v-if="isLoading"></stage-loading>
+        <message></message>
+    </div>
+    <div id="init">
+        <div class="loader"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="./js/vendor.e644ed23f5f7c05cd2dc.js"></script><script type="text/javascript" src="./js/main.e644ed23f5f7c05cd2dc.js"></script></body>
+
+</html>
